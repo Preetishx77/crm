@@ -29,7 +29,7 @@ const App = () => (
     >
         <Resource name="deals" {...deals} />
         <Resource name="contacts" {...contacts} />
-        <Resource name="companies" {...companies} />
+        {/* <Resource name="companies" {...companies} /> */}
         <Resource name="contactNotes" />
         <Resource name="dealNotes" />
         <Resource name="tasks" list={ListGuesser} />
