@@ -13,3 +13,4 @@ export const dataProvider = new Proxy(baseDataProvider, {
             )
         ),
 });
+// add firebase providers

@@ -2,11 +2,11 @@ import * as React from 'react';
 import { Box } from '@material-ui/core';
 
 const getColorFromStatus = (status: string) =>
-    status === 'cold'
+    status === 'closed'
         ? '#7dbde8'
-        : status === 'warm'
+        : status === 'payment pending'
         ? '#e8cb7d'
-        : status === 'hot'
+        : status === 'halt'
         ? '#e88b7d'
         : status === 'in-contract'
         ? '#a4e87d'
